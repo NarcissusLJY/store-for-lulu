@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python78</title>
+</head>
+<body>
+    <!--注释 crtl+/-->
+    <h1>1级标题</h1>
+    <h2>2级标题</h2>
+    ...
+    <h6>6级标题</h6>
+
+    <!--手动换行 <br> 无行间距-->
+    <p>是秋天凉风  <br>
+    催我钻进你的颈窝 <br>
+        爱的每个瞬间 <br>
+        像飞驰而过的地铁 <br>
+    </p>
+
+    <!--段落换行 有行间距-->
+    <p>是秋天凉风</p>
+    <p>催我钻进你的颈窝</p>
+    <p>爱的每个瞬间</p>
+    <p>像飞驰而过的地铁</p>
+
+    <!--    水平线-->
+    <hr>
+
+    <!--    div非常常见，经常使用它来进行页面排版和优化-->
+    <div>是秋天凉风</div>
+    <div>催我钻进你的颈窝</div>
+    <div>爱的每个瞬间</div>
+    <div>像飞驰而过的地铁</div>
+
+    <!--    有序列表-->
+    <ol>
+        <li>鹿鹿</li>
+        <li>fafa</li>
+        <li>lemon</li>
+        <li>圆圆</li>
+    </ol>
+
+    <!--无序列表-->
+    <ul>
+        <li>鹿鹿</li>
+        <li>fafa</li>
+        <li>lemon</li>
+        <li>圆圆</li>
+    </ul>
+
+    <!--表格-->
+    <table border="1">
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+        </tr>
+        <tr>
+            <td>鹿鹿</td>
+            <td>18</td>
+            <td>女</td>
+        </tr>
+         <tr>
+            <td>圆圆</td>
+            <td>18</td>
+            <td>女</td>
+        </tr>
+    </table>
+
+
+<!--超链接： 经常会进行元素定位   a标签需要和href属性绑定起来使用  -->
+    <div>
+        <a href="http://baidu.com">进入百度</a>
+    </div>
+
+<!--图片地址：可以是本地的地址，可以是网页地址   是单个标签
+    img标签需要和src属性绑定使用
+    img标签经常和a标签搭配使用，如果img标签没有明显的特征，可以通过a标签进行定位-->
+    <img src="http://oa.sf-ce.com/page/resource/userfile/image/sfceportal/logo5.png">
+
+<!--点击图片进入链接-->
+    <div>
+        <a href="http://baidu.com">
+        <img src="http://oa.sf-ce.com/page/resource/userfile/image/sfceportal/logo5.png">
+    </a>
+    </div>
+
+
+    <iframe>
+        <html>
+            <head></head>
+            <body>hello world</body>
+        </html>
+    </iframe>
+
+
+    <iframe src="http://www.baidu.com">
+    </iframe>
+
+
+<!--    input 输入框-->
+<!--    lable -->
+    <label>用户名：</label><input>
+
+<!--  placehold 默认值-->
+    <input placeholder="请输入用户名">
+    <input type="password" placeholder="请输入密码">
+
+
+<!-- radio 单选-->
+    <div>
+        你最喜欢的明星：
+        <input type="radio" name="favor_star">Marco
+        <input type="radio" name="favor_star">K
+        <input type="radio" name="favor_star">Purple
+    </div>
+
+    <div>
+        你喜欢的明星：
+        <input type="checkbox" name="favor">Marco
+        <input type="checkbox" name="favor">K
+        <input type="checkbox" name="favor">Purple
+    </div>
+
+
+    <div>
+        <select>
+            <option>选项1</option>
+            <option>选项2</option>
+            <option>选项3</option>
+        </select>
+    </div>
+
+    <form action="http://httpbin.org/post" method="post">
+        <div>
+        你最喜欢的明星：
+        <input type="radio" name="favor_star" value="Marco">Marco
+        <input type="radio" name="favor_star" value="K">K
+        <input type="radio" name="favor_star" value="Purple">Purple
+    </div>
+
+    <div>
+        你喜欢的明星：
+        <input type="checkbox" name="favor">Marco
+        <input type="checkbox" name="favor">K
+        <input type="checkbox" name="favor">Purple
+    </div>
+
+        <input type="date">
+        <input type="color">
+
+    <div>
+        <select>
+            <option>选项1</option>
+            <option>选项2</option>
+            <option>选项3</option>
+        </select>
+    </div>
+    <input type="submit">
+    </form>
+
+</body>
+</html>
